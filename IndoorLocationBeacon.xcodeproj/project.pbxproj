@@ -18,6 +18,7 @@
 		0C43FA6D19D6A90A00936284 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43FA6C19D6A90A00936284 /* CoreBluetooth.framework */; };
 		0C43FA7119D6B08900936284 /* IndoorLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43FA7019D6B08900936284 /* IndoorLocationManager.m */; };
 		0C43FA7319D6B14900936284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43FA7219D6B14900936284 /* CoreGraphics.framework */; };
+		0C49D16A19D6CC9E001EDC31 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0C49D16919D6CC9E001EDC31 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		0C43FA6F19D6B08900936284 /* IndoorLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorLocationManager.h; sourceTree = "<group>"; };
 		0C43FA7019D6B08900936284 /* IndoorLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndoorLocationManager.m; sourceTree = "<group>"; };
 		0C43FA7219D6B14900936284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C49D16919D6CC9E001EDC31 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		0C43FA3819D6A89400936284 = {
 			isa = PBXGroup;
 			children = (
+				0C49D16919D6CC9E001EDC31 /* README.md */,
 				0C43FA7219D6B14900936284 /* CoreGraphics.framework */,
 				0C43FA6C19D6A90A00936284 /* CoreBluetooth.framework */,
 				0C43FA6A19D6A90200936284 /* CoreLocation.framework */,
@@ -240,6 +243,7 @@
 			files = (
 				0C43FA4D19D6A89400936284 /* ViewController.m in Sources */,
 				0C43FA7119D6B08900936284 /* IndoorLocationManager.m in Sources */,
+				0C49D16A19D6CC9E001EDC31 /* README.md in Sources */,
 				0C43FA4A19D6A89400936284 /* AppDelegate.m in Sources */,
 				0C43FA4719D6A89400936284 /* main.m in Sources */,
 			);
