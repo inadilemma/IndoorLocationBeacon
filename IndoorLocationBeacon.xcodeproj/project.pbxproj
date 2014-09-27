@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C43FA4719D6A89400936284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43FA4619D6A89400936284 /* main.m */; };
+		0C43FA4A19D6A89400936284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43FA4919D6A89400936284 /* AppDelegate.m */; };
+		0C43FA4D19D6A89400936284 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43FA4C19D6A89400936284 /* ViewController.m */; };
+		0C43FA5019D6A89400936284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C43FA4E19D6A89400936284 /* Main.storyboard */; };
+		0C43FA5219D6A89400936284 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C43FA5119D6A89400936284 /* Images.xcassets */; };
+		0C43FA5519D6A89400936284 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C43FA5319D6A89400936284 /* LaunchScreen.xib */; };
+		0C43FA6119D6A89400936284 /* IndoorLocationBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43FA6019D6A89400936284 /* IndoorLocationBeaconTests.m */; };
+		0C43FA6B19D6A90200936284 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43FA6A19D6A90200936284 /* CoreLocation.framework */; };
+		0C43FA6D19D6A90A00936284 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43FA6C19D6A90A00936284 /* CoreBluetooth.framework */; };
+		0C43FA7119D6B08900936284 /* IndoorLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C43FA7019D6B08900936284 /* IndoorLocationManager.m */; };
+		0C43FA7319D6B14900936284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C43FA7219D6B14900936284 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C43FA5B19D6A89400936284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C43FA3919D6A89400936284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C43FA4019D6A89400936284;
+			remoteInfo = IndoorLocationBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C43FA4119D6A89400936284 /* IndoorLocationBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorLocationBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C43FA4519D6A89400936284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C43FA4619D6A89400936284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C43FA4819D6A89400936284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C43FA4919D6A89400936284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C43FA4B19D6A89400936284 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C43FA4C19D6A89400936284 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C43FA4F19D6A89400936284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C43FA5119D6A89400936284 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C43FA5419D6A89400936284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0C43FA5A19D6A89400936284 /* IndoorLocationBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoorLocationBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C43FA5F19D6A89400936284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C43FA6019D6A89400936284 /* IndoorLocationBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndoorLocationBeaconTests.m; sourceTree = "<group>"; };
+		0C43FA6A19D6A90200936284 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0C43FA6C19D6A90A00936284 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0C43FA6E19D6A95500936284 /* CommonConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonConfig.h; sourceTree = "<group>"; };
+		0C43FA6F19D6B08900936284 /* IndoorLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndoorLocationManager.h; sourceTree = "<group>"; };
+		0C43FA7019D6B08900936284 /* IndoorLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndoorLocationManager.m; sourceTree = "<group>"; };
+		0C43FA7219D6B14900936284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C43FA3E19D6A89400936284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C43FA7319D6B14900936284 /* CoreGraphics.framework in Frameworks */,
+				0C43FA6D19D6A90A00936284 /* CoreBluetooth.framework in Frameworks */,
+				0C43FA6B19D6A90200936284 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C43FA5719D6A89400936284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C43FA3819D6A89400936284 = {
+			isa = PBXGroup;
+			children = (
+				0C43FA7219D6B14900936284 /* CoreGraphics.framework */,
+				0C43FA6C19D6A90A00936284 /* CoreBluetooth.framework */,
+				0C43FA6A19D6A90200936284 /* CoreLocation.framework */,
+				0C43FA4319D6A89400936284 /* IndoorLocationBeacon */,
+				0C43FA5D19D6A89400936284 /* IndoorLocationBeaconTests */,
+				0C43FA4219D6A89400936284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C43FA4219D6A89400936284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C43FA4119D6A89400936284 /* IndoorLocationBeacon.app */,
+				0C43FA5A19D6A89400936284 /* IndoorLocationBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C43FA4319D6A89400936284 /* IndoorLocationBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				0C43FA4819D6A89400936284 /* AppDelegate.h */,
+				0C43FA4919D6A89400936284 /* AppDelegate.m */,
+				0C43FA4B19D6A89400936284 /* ViewController.h */,
+				0C43FA4C19D6A89400936284 /* ViewController.m */,
+				0C43FA4E19D6A89400936284 /* Main.storyboard */,
+				0C43FA5119D6A89400936284 /* Images.xcassets */,
+				0C43FA5319D6A89400936284 /* LaunchScreen.xib */,
+				0C43FA4419D6A89400936284 /* Supporting Files */,
+				0C43FA6E19D6A95500936284 /* CommonConfig.h */,
+				0C43FA6F19D6B08900936284 /* IndoorLocationManager.h */,
+				0C43FA7019D6B08900936284 /* IndoorLocationManager.m */,
+			);
+			path = IndoorLocationBeacon;
+			sourceTree = "<group>";
+		};
+		0C43FA4419D6A89400936284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C43FA4519D6A89400936284 /* Info.plist */,
+				0C43FA4619D6A89400936284 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C43FA5D19D6A89400936284 /* IndoorLocationBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C43FA6019D6A89400936284 /* IndoorLocationBeaconTests.m */,
+				0C43FA5E19D6A89400936284 /* Supporting Files */,
+			);
+			path = IndoorLocationBeaconTests;
+			sourceTree = "<group>";
+		};
+		0C43FA5E19D6A89400936284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C43FA5F19D6A89400936284 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C43FA4019D6A89400936284 /* IndoorLocationBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C43FA6419D6A89400936284 /* Build configuration list for PBXNativeTarget "IndoorLocationBeacon" */;
+			buildPhases = (
+				0C43FA3D19D6A89400936284 /* Sources */,
+				0C43FA3E19D6A89400936284 /* Frameworks */,
+				0C43FA3F19D6A89400936284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndoorLocationBeacon;
+			productName = IndoorLocationBeacon;
+			productReference = 0C43FA4119D6A89400936284 /* IndoorLocationBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C43FA5919D6A89400936284 /* IndoorLocationBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C43FA6719D6A89400936284 /* Build configuration list for PBXNativeTarget "IndoorLocationBeaconTests" */;
+			buildPhases = (
+				0C43FA5619D6A89400936284 /* Sources */,
+				0C43FA5719D6A89400936284 /* Frameworks */,
+				0C43FA5819D6A89400936284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C43FA5C19D6A89400936284 /* PBXTargetDependency */,
+			);
+			name = IndoorLocationBeaconTests;
+			productName = IndoorLocationBeaconTests;
+			productReference = 0C43FA5A19D6A89400936284 /* IndoorLocationBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C43FA3919D6A89400936284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Mahmud;
+				TargetAttributes = {
+					0C43FA4019D6A89400936284 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					0C43FA5919D6A89400936284 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0C43FA4019D6A89400936284;
+					};
+				};
+			};
+			buildConfigurationList = 0C43FA3C19D6A89400936284 /* Build configuration list for PBXProject "IndoorLocationBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C43FA3819D6A89400936284;
+			productRefGroup = 0C43FA4219D6A89400936284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C43FA4019D6A89400936284 /* IndoorLocationBeacon */,
+				0C43FA5919D6A89400936284 /* IndoorLocationBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C43FA3F19D6A89400936284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C43FA5019D6A89400936284 /* Main.storyboard in Resources */,
+				0C43FA5519D6A89400936284 /* LaunchScreen.xib in Resources */,
+				0C43FA5219D6A89400936284 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C43FA5819D6A89400936284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C43FA3D19D6A89400936284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C43FA4D19D6A89400936284 /* ViewController.m in Sources */,
+				0C43FA7119D6B08900936284 /* IndoorLocationManager.m in Sources */,
+				0C43FA4A19D6A89400936284 /* AppDelegate.m in Sources */,
+				0C43FA4719D6A89400936284 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C43FA5619D6A89400936284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C43FA6119D6A89400936284 /* IndoorLocationBeaconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C43FA5C19D6A89400936284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C43FA4019D6A89400936284 /* IndoorLocationBeacon */;
+			targetProxy = 0C43FA5B19D6A89400936284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C43FA4E19D6A89400936284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C43FA4F19D6A89400936284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C43FA5319D6A89400936284 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C43FA5419D6A89400936284 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C43FA6219D6A89400936284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C43FA6319D6A89400936284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C43FA6519D6A89400936284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IndoorLocationBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C43FA6619D6A89400936284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IndoorLocationBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C43FA6819D6A89400936284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndoorLocationBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoorLocationBeacon.app/IndoorLocationBeacon";
+			};
+			name = Debug;
+		};
+		0C43FA6919D6A89400936284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndoorLocationBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoorLocationBeacon.app/IndoorLocationBeacon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C43FA3C19D6A89400936284 /* Build configuration list for PBXProject "IndoorLocationBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C43FA6219D6A89400936284 /* Debug */,
+				0C43FA6319D6A89400936284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C43FA6419D6A89400936284 /* Build configuration list for PBXNativeTarget "IndoorLocationBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C43FA6519D6A89400936284 /* Debug */,
+				0C43FA6619D6A89400936284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C43FA6719D6A89400936284 /* Build configuration list for PBXNativeTarget "IndoorLocationBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C43FA6819D6A89400936284 /* Debug */,
+				0C43FA6919D6A89400936284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C43FA3919D6A89400936284 /* Project object */;
+}
